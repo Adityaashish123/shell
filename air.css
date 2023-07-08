@@ -1,0 +1,181 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.logo{
+    color:red;
+    height: 40px;
+    width: 110px;
+
+}
+.navbar{
+    display: flex;
+    gap: 400px;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color:whitesmoke;
+
+}
+.line{
+    background-color: whitesmoke;
+    height: 0px;
+}
+.search{
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    padding: 4px;
+    border-radius: 50%;
+    color: white;
+}
+
+.middle-text{
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 40px;
+    /* width: auto; */
+    
+}
+.middle-text a{
+    text-decoration:none;
+    color: black;
+    
+}
+.middle-text-link-p a{
+    color: grey;
+}
+.right-box{
+    display: flex;
+    height: 30px;
+    width: 60px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 40px;
+}
+.right-box img{
+    height: 30px;
+    width: 30px;
+    /* padding: 2px; */
+}
+
+.right-nav{
+    width: auto;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.right-nav a{
+    text-decoration: 
+    none;
+    color: black;
+
+}
+.icon{
+    display: flex;
+    gap: 65px;
+    /* margin: 20px 20px; */
+    position: sticky;
+    top: 90px;
+    background-color: whitesmoke;
+    margin-top: 0px;
+    width: 100%;
+    /* margin: 100%; */
+}
+.icon-img{
+    height: 25px;
+    width: 25px;
+}
+.icon a{
+    text-decoration: none;
+}
+.searchbar{
+    display: flex;
+    justify-content: center;
+}
+.searchbox{
+    margin-top: 40px; ;
+    display: flex;
+    gap: 12px;
+   justify-content: start;
+   width: 35%;
+   border: 1px solid gray;
+   border-radius: 18px;
+  
+}
+.searchbox h4{
+    font-weight: lighter;
+}
+.hotel{
+    display: flex;
+    margin: 40px 40px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.hotel a{
+    text-decoration: none;
+}
+.hotel img{
+    height: 320px;
+    width: 320px;
+}
+.heart-logo{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    margin-left: -80px;
+}
+.fixed{
+    position: fixed;
+    left: 45%;
+    bottom: 100px;
+    padding: 16px;
+    background-color: black;
+    border-radius: 40px;
+    height: 20px;
+}
+.fixed a{
+    color: white;
+}
+.footer{
+    border-top: 1px solid #d1cbcb;
+    display: flex;
+    padding: 0 40px 0 40px;
+    height: 50px;
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+}
+.left-side{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+}
+.left-side a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 380;
+}
+.right-side{
+    margin-top: 6px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 15px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.bi-map-fill{
+    color: white;
+}
